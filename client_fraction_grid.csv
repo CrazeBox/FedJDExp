@@ -1,0 +1,10 @@
+﻿exp_id,exp_group,alpha,method,local_moo_backend,server_moo_mode,server_moo_beta,server_solver,server_qp_steps,server_qp_lr,server_fair_lambda,sketch_dim,server_sketch_gamma,loss_stat_batches,grad_stat_batches,stat_every_rounds,ssjd_k,compress,compress_ratio,client_fraction,eval_freq,num_rounds,local_epochs,num_clients,seed,status,run_id,avg_acc,worst_task_acc,fairness,elapsed_sec,notes
+101,CF,0.1,ssjd,auto,loss_grad,0.5,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,1.0,10,10,2,10,42,planned,,,,,,client_fraction_ablation_full
+102,CF,0.1,ssjd,auto,loss_grad,0.5,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,0.5,10,10,2,10,42,planned,,,,,,client_fraction_ablation_half
+103,CF,0.1,ssjd,auto,loss_grad,0.5,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,0.3,10,10,2,10,42,planned,,,,,,client_fraction_ablation_30pct
+104,CF,0.1,cagrad,auto,sample_only,0.0,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,1.0,10,10,2,10,42,planned,,,,,,client_fraction_ablation_full
+105,CF,0.1,cagrad,auto,sample_only,0.0,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,0.5,10,10,2,10,42,planned,,,,,,client_fraction_ablation_half
+106,CF,0.1,cagrad,auto,sample_only,0.0,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,0.3,10,10,2,10,42,planned,,,,,,client_fraction_ablation_30pct
+107,CF,0.1,fedavg,auto,sample_only,0.0,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,1.0,10,10,2,10,42,planned,,,,,,client_fraction_ablation_full
+108,CF,0.1,fedavg,auto,sample_only,0.0,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,0.5,10,10,2,10,42,planned,,,,,,client_fraction_ablation_half
+109,CF,0.1,fedavg,auto,sample_only,0.0,heuristic,20,0.1,0.1,3,0.05,1,1,5,3,True,0.01,0.3,10,10,2,10,42,planned,,,,,,client_fraction_ablation_30pct
